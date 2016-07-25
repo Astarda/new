@@ -5,6 +5,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
 hr {
 	background-color: #ff0000;
 	height: 1px;
@@ -14,6 +15,7 @@ body {
 	text-transform: uppercase;
 	font-size:10px;
 	letter-spacing: 1.2px;
+	min-width: 320px;
 }
 h1 {
 	font-size: 16px;
@@ -39,6 +41,9 @@ li {
 }
 
 /*HEADER*/
+/*.navbar-header {
+	background-color: #fff;
+}*/
 .logo{
 	background: #fff;
 	text-align: center;
@@ -116,38 +121,65 @@ a.comein:active {
 	font-size: 12px;
 }
 /*CONTENT*/
+.content_big, .content_big:hover, .content_mid, .content_mid:hover, .con_low1, .con_low:hover, .con_low2, .con_low2:hover, .con_low3, .con_low3:hover, .con_low4, .con_low4:hover, .con_low5, .con_low5:hover, .con_low6, .con_low6:hover {
+	background-size: cover;
+}
 
 .content_big{
 	background-image: url('img/pir.jpg') ;
-	background-size: 465px;
+	/*background-size: 465px;*/
 }
 .content_big:hover{
 	background-image: url('img/hoverpir.jpg');
-	background-size: 465px;	
+	/*background-size: 465px;	*/
 }
 .content_mid{
 	background-image: url('img/dr.jpg');
-	background-size: 465px;
+	/*background-size: 465px;*/
 }
 .content_mid:hover{
 	background-image: url('img/hoverdr.jpg');
-	background-size: 465px;
+	/*background-size: 465px;*/
 }
 .con_low1{
 	background-image: url('img/wed.jpg');
-	background-size: 233px;
+	/*background-size: 233px;*/
 }
 .con_low1:hover {
 	background-image: url('img/hoverwed.jpg');
-	background-size: 233px;
+	/*background-size: 233px;*/
 }
 .con_low2 {
 	background-image: url('img/child.jpg');
-	background-size: 233px;
+	/*background-size: 233px;*/
 }
 .con_low2:hover {
 	background-image: url('img/hoverchild.jpg');
-	background-size: 233px;
+	/*background-size: 233px;*/
+}
+.con_low3{
+	background-image: url('img/sea.jpg')
+}
+.con_low3:hover {
+	background-image: url('img/hoversea.jpg');
+}
+.con_low4 {
+	background-image: url('img/forest.jpg'); 
+}
+.con_low4:hover {
+	background-image: url('img/hoverforest.jpg');
+}
+.con_low5 {
+	background-image: url('img/tur.jpg');
+}
+.con_low5:hover {
+	background-image: url('img/hovertur.jpg');
+}
+.con_low6 {
+	background-image: url('img/korp.jpg');
+}
+.con_low6:hover {
+	background-image: url('img/hoverkorp.jpg');
 }
 .text-big, .text-mid{
 	text-align: bottom;
@@ -183,6 +215,7 @@ a.comein:active {
  	text-transform: uppercase;
  	margin: 3px;
  }
- .text-low1 a{
- 	margin: 3px;
+ footer {
+ 	height: 75px;
+ 	background-color: #a1a1a1;
  }
